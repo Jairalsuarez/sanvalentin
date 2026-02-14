@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>sanvalentin</title>
+  </head>
+  <body class="bg-rose-50 overflow-hidden font-sans">
+    <div id="app">
+      <section class="relative h-screen flex flex-col items-center justify-center p-6 text-center overflow-hidden">
+        
+        <div class="absolute top-0 -left-10 w-72 h-72 bg-rose-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+        <div class="absolute bottom-0 -right-10 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+
+        <div class="z-10 bg-white/40 backdrop-blur-md p-8 rounded-3xl border border-white/60 shadow-2xl transition-all duration-700">
+          <div class="mb-6 inline-block text-6xl">❤️</div>
+
+          <h1 class="text-4xl font-extrabold text-rose-600 mb-2 tracking-tight">
+            ¡Feliz San Valentín, <span class="block text-rose-500">Adriana!</span>
+          </h1>
+
+          <p id="main-text" class="text-lg text-gray-700 mb-8 leading-relaxed min-h-[3rem]">
+            Gracias por quererme, mi amor ❤️.
+          </p>
+
+          <button id="celebrate-btn" 
+                  class="bg-rose-500 hover:bg-rose-600 text-white font-bold py-4 px-8 rounded-full shadow-lg transform active:scale-95 transition-all duration-200">
+            Toca para una sorpresa jeje ✨
+          </button>
+        </div>
+
+        <p class="absolute bottom-10 text-rose-400 font-medium">
+          Jair & Adriana ❤️ 2026
+        </p>
+      </section>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
